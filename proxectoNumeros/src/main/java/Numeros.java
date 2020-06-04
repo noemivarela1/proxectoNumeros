@@ -9,8 +9,17 @@
  * @author Noemí
  */
 public class Numeros {
+    public static boolean positivo(int num){
+        if (num>0){
+            return true;
+        }else{
+            return false;
+        }
+    }
     public static void main(String[] args){
         System.out.println("Proxecto numeros");
         System.out.println("Funcionalidade verificar se o número é positivo");
+        int num1=7;
+        System.out.println("Número positivo:"+positivo(num1));
     }
 }
