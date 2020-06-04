@@ -11,5 +11,6 @@
 public class Numeros {
     public static void main(String[] args){
         System.out.println("Proxecto numeros");
+        System.out.println("Funcionalidade verificar se o número é positivo");
     }
 }
