@@ -9,7 +9,16 @@
  * @author Noemí
  */
 public class Numeros {
+    public static boolean positivo(int num){
+        if (num>0){
+            return true;
+        }else{
+            return false;
+        }
+    }
     public static void main(String[] args){
         System.out.println("Proxecto numeros");
+        int num1=7;
+        System.out.println(positivo(num1));
     }
 }
