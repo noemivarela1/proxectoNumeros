@@ -9,6 +9,12 @@
  * @author Noemí
  */
 public class Numeros {
+    public static boolean multipoTres(int num) {
+        if(num%3==0) 
+            return true;
+        else
+            return false;
+    }
     public static boolean positivo(int num){
         if (num>0){
             return true;
@@ -21,5 +27,6 @@ public class Numeros {
         System.out.println("Funcionalidade verificar se o número é positivo");
         int num1=7;
         System.out.println("Número positivo:"+positivo(num1));
+        System.out.println("Número mútlipo de tres: " + multipoTres(num1));
     }
 }
