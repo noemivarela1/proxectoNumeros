@@ -50,6 +50,19 @@ public class NumerosTest {
         assertEquals(expResult1,result1);
         
     }
+    @Test
+    public void testMultipoTres() {
+        System.out.println("Múltipo de Tres");
+        int num = 5;
+        boolean expResult = false;
+        boolean result = Numeros.multipoTres(num);
+        assertEquals(expResult, result);
+        int num1=12;
+        boolean expResult1 = true;
+        boolean result1=Numeros.multipoTres(num1);
+        assertEquals(expResult1,result1);
+        
+    }
     @Disabled
     @Test
     public void testMain() {
