@@ -51,18 +51,33 @@ public class NumerosTest {
         
     }
     @Test
-    public void testMultipoTres() {
-        System.out.println("Múltipo de Tres");
+    public void testMultiploTres() {
+        System.out.println("Múltiplo de Tres");
         int num = 5;
         boolean expResult = false;
-        boolean result = Numeros.multipoTres(num);
+        boolean result = Numeros.multiploTres(num);
         assertEquals(expResult, result);
         int num1=12;
         boolean expResult1 = true;
-        boolean result1=Numeros.multipoTres(num1);
+        boolean result1=Numeros.multiploTres(num1);
         assertEquals(expResult1,result1);
         
     }
+    
+    @Test
+    public void testNumeroParOImpar() {
+        System.out.println("Numero par");
+        int num = 5;
+        boolean expResult = false;
+        boolean result = Numeros.parOImpar(num);
+        assertEquals(expResult, result);
+        int num1=12;
+        boolean expResult1 = true;
+        boolean result1=Numeros.parOImpar(num1);
+        assertEquals(expResult1,result1);
+    }
+      
+      
     @Disabled
     @Test
     public void testMain() {

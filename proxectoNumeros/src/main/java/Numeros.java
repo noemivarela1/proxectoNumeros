@@ -9,7 +9,7 @@
  * @author Noemí
  */
 public class Numeros {
-    public static boolean multipoTres(int num) {
+    public static boolean multiploTres(int num) {
         if(num%3==0) 
             return true;
         else
@@ -22,11 +22,19 @@ public class Numeros {
             return false;
         }
     }
+     public static boolean parOImpar(int num){
+        if (num%2==0){
+            return true;
+        }else{
+            return false;
+        }
+    }
     public static void main(String[] args){
         System.out.println("Proxecto numeros");
         System.out.println("Funcionalidade verificar se o número é positivo");
         int num1=7;
         System.out.println("Número positivo:"+positivo(num1));
-        System.out.println("Número mútlipo de tres: " + multipoTres(num1));
+        System.out.println("Número múltiplo de tres: " + multiploTres(num1));
+        System.out.println("Número par: " + parOImpar(num1));
     }
 }
